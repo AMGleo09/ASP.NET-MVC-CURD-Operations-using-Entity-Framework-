@@ -6,7 +6,7 @@ The ASP.NET MVC Product Management System is a web-based application designed to
 - Product Management (CRUD)
 - Add, Edit, Delete, and View products.
 - Each product is linked to a specific category.
-- 
+  
 # Product Listing with Pagination
 Displays product details such as Product ID, Product Name, Category ID, and Category Name.
 Uses server-side pagination to load data efficiently from the database.
@@ -22,6 +22,6 @@ Uses .Skip() and .Take() in Entity Framework to fetch only the required records 
 - Frontend: Razor Views, HTML, CSS, Bootstrap
 - Database: SQL Server (with Entity Framework Code First)
 - Pagination: Implemented using manual server-side pagination
-- 
+  
 # Conclusion
 This project provides an efficient way to manage products and categories in a structured manner while ensuring optimal performance with server-side pagination. It follows best practices for MVC architecture, database design, and pagination handling.
